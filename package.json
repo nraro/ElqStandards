@@ -1,0 +1,26 @@
+{
+  "name": "elqstandards",
+  "version": "1.0.0",
+  "description": "ElqStandards",
+  "main": "scripts.js",
+  "dependencies": {
+    "browser-sync": "^2.18.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nraro/ElqStandards.git"
+  },
+  "keywords": [
+    "Elq",
+    "Standards"
+  ],
+  "author": "Robert N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nraro/ElqStandards/issues"
+  },
+  "homepage": "https://github.com/nraro/ElqStandards#readme"
+}
