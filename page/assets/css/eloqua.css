@@ -1,0 +1,609 @@
+/*------------------GENERAL------------------*/
+
+body {
+    font-family: 'HPSimplifiedLight', 'HPSimplified', 'HPSimplifiedRegular', Arial;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff !important;
+}
+div.preview {
+    background: #ddd;
+    margin: 15px 0px;
+    vertical-align: middle;
+    text-align: center;
+}
+div.preview2 {
+    background: #aaa;
+    margin: 15px 0px;
+    vertical-align: middle;
+    text-align: center;
+}
+div.clear {
+    clear: both;
+}
+.preview .headline, .preview2 .headline {
+    font-size: 20px;
+    font-weight: bold;
+}
+code {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.row {
+    /*FIX FOR FOUNDATION.CSS*/
+    padding: 0.625rem 0;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+a {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #007DBA;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #007DBA;
+}
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    margin: 8px;
+    text-align: left;
+}
+p.bold {
+    font-weight: bold;
+    margin: 5px;
+}
+p.italic {
+    font-style: italic;
+}
+p.meta {
+    color: #767676;
+}
+a.meta {
+    color: #767676;
+}
+p.error, span.error, a.error, div.error {
+    color: #F00;
+}
+
+/*------------------END OF GENERAL------------------*/
+
+
+/*------------------TYPOGRAPHY------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #000;
+    margin: 5px;
+}
+h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 9px;
+}
+h1.hero {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 11px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+h4 {
+    font-size: 18px;
+    line-height: 22px;
+}
+h4.subtitle {
+    font-weight: normal;
+}
+h4.rr_header {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 6px;
+}
+h4 a.link {
+    color: #007dba;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 5px;
+}
+h5 {
+    font-size: 16px;
+    line-height: 22px;
+}
+h5 a.link {
+    color: #007dba;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 5px;
+}
+h6 {
+    font-size: 14px;
+    line-height: 18px;
+}
+h6 a.link {
+    color: #007dba;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 5px;
+}
+p.rr_body {
+    line-height: 18px;
+    margin: 4px;
+    font-size: 14px;
+}
+a.rr_body_link {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 4px;
+    color: #007dba;
+}
+p.body_14 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #5a5a5a;
+    margin: 6px;
+}
+a.body_link_14 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #007dba;
+    margin: 6px;
+}
+p.meta_14 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;
+    margin: 6px;
+}
+a.meta_link_14 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;
+    margin: 6px;
+}
+p.error_14 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ff0000;
+    margin: 6px;
+}
+ul.bl {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 28px;
+    list-style: disc inside;
+    text-align: left;
+    padding-left: 0px;
+}
+p.footnotes {
+    font-size: 12px;
+    line-height: 15px;
+    color: #5a5a5a;
+    margin: 4px;
+}
+a.footnotes {
+    font-size: 12px;
+    line-height: 15px;
+    color: #007dba;
+    margin: 4px;
+}
+.breadcrumbs li {
+    color: #767676;
+    font-size: 12px;
+    cursor: normal;
+    text-transform: none;
+    margin: 4px;
+    line-height: 15px;
+}
+.breadcrumbs a {
+    color: #767676;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 4px;
+}
+
+/*------------------END OF TYPOGRAPHY------------------*/
+
+
+/*------------------BUTTONS------------------*/
+
+input.button {
+    cursor: pointer;
+    color: #fff;
+    height: 36px;
+    padding: 0px 15px;
+    display: inline-block;
+    border-radius: 0px 4px;
+    background: #000;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 34px;
+    text-decoration: none;
+    margin: 0px 10px;
+    border: none;
+    float: right;
+}
+input.critical {
+    background: #D7410B;
+}
+input.critical:hover {
+    background: #C1401A;
+}
+input.primary {
+    background: #0096d6;
+}
+input.primary:hover {
+    background: #006699;
+}
+input.secondary {
+    background: #767676;
+}
+input.secondary:hover {
+    background: #5a5a5a;
+}
+a.toggle {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;
+    background-color: #fff;
+    margin: 0px 1px;
+    padding: 1px 6px 0px;
+    display: inline-block;
+    height: 26px;
+    border: 2px #949494 solid;
+    border-collapse: collapse;
+    text-decoration: none;
+}
+a.toggle:hover {
+    text-decoration: none;
+    border: 2px #000 solid;
+    color: #007dba;
+}
+a.checked.toggle {
+    cursor: default;
+    border-color: #007dba;
+    color: #fff;
+    background-color: #007dba;
+}
+div.reveal button.close-button {
+    position: absolute;
+}
+button.close-button {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0px;
+    color: #373536;
+    line-height: 0px;
+    background: url('http://images.engage.hp.com/EloquaImages/clients/HPInc/%7bada43cbb-47fd-4812-b01c-3cb077e9bd8a%7d_sprite.png') left -455px;
+    position: relative;
+}
+button.close-button:hover {
+    background: url('http://images.engage.hp.com/EloquaImages/clients/HPInc/%7bada43cbb-47fd-4812-b01c-3cb077e9bd8a%7d_sprite.png') left -500px;
+}
+
+/*------------------END OF BUTTONS------------------*/
+
+
+/*------------------RADIO BUTTONS (FORMS)------------------*/
+
+div.radio_holder {
+    width: 25%;
+    float: left;
+    overflow: auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"]+ label.radio {
+    cursor: pointer;
+    display: inline-block;
+    background: url('http://images.engage.hp.com/EloquaImages/clients/HPInc/%7bada43cbb-47fd-4812-b01c-3cb077e9bd8a%7d_sprite.png');
+    background-repeat: no-repeat;
+    background-position: left -223px;
+}
+input[type="radio"]+ label.radio span {
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 22px;
+    margin-right: 2px;
+    font-size: 16px;
+    line-height: 18px;
+}
+input[type="radio"]+ label.radio:hover {
+    background-position: left -269px;
+}
+input[type="radio"]+ label.error, input[type="radio"]+ label.error:hover {
+    background-position: left -407px;
+    color: #f00;
+}
+input[type="radio"]:checked+ label.radio {
+    background-position: left -315px;
+}
+input[type="radio"]:checked+ label.radio.error:hover {
+    background-position: left -315px;
+}
+
+/*------------------END OF RADIO BUTTONS (FORMS)------------------*/
+
+
+/*------------------CHECKBOXES (FORMS)------------------*/
+
+div.checkbox_holder {
+    width: 25%;
+    float: left;
+    overflow: auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"]+ label.checkbox {
+    cursor: pointer;
+    display: inline-block;
+    background: url('http://images.engage.hp.com/EloquaImages/clients/HPInc/%7bada43cbb-47fd-4812-b01c-3cb077e9bd8a%7d_sprite.png');
+    background-repeat: no-repeat;
+    background-position: left 2px;
+}
+input[type="checkbox"]+ label.checkbox span {
+    height: 18px;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 22px;
+    margin-right: 2px;
+    font-size: 16px;
+    line-height: 18px;
+}
+input[type="checkbox"]+ label.checkbox:hover {
+    background-position: left -43px;
+}
+input[type="checkbox"]:checked+ label.checkbox {
+    background-position: left -88px;
+}
+input[type="checkbox"]+ label.error {
+    background-position: left -178px;
+    color: #f00;
+}
+
+input[type="checkbox"]+ label.error:hover {
+  background-position: left -43px;
+}
+
+input[type="checkbox"]+ label.disabled {
+    background-position: left -133px;
+    color: #767676;
+  cursor: default;
+}
+
+input[type="checkbox"]+ label.disabled:hover {
+  background-position: left -133px;
+    color: #767676;
+  cursor: default;
+}
+
+/*------------------END OF CHECKBOXES (FORMS)------------------*/
+
+
+/*------------------TEXTFIELD (FORMS)------------------*/
+
+input[type="text"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="range"],
+input[type="reset"] {
+    color: #000;
+    display: inline-block;
+    height: 36px;
+    line-height: 22px;
+    padding: 0 8px;
+    font-size: 16px;
+    background: #fff;
+    border: 2px solid #949494;
+    vertical-align: top;
+    width: 100%;
+    box-shadow: none;
+    transition: none;
+}
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="password"]:hover,
+input[type="text"]:hover {
+    box-shadow: none;
+    transition: none;
+    border: 2px solid #363636;
+}
+
+/*------------------END OF TEXTFIELD (FORMS)------------------*/
+
+
+/*------------------TEXTAREA (FORMS)------------------*/
+
+textarea {
+    height: 100px;
+    padding: 10px;
+    border: 2px #949494 solid;
+    resize: none;
+    box-shadow: none;
+    transition: none;
+}
+textarea:focus, textarea:hover {
+    border: 2px solid #363636;
+    box-shadow: none;
+    transition: none;
+}
+
+/*------------------END OF TEXTAREA (FORMS)------------------*/
+
+
+/*------------------DROPDOWNS (FORMS)------------------*/
+
+select {
+    border: 2px solid #949494;
+    color: #007DBA;
+    background: url('http://images.engage.hp.com/EloquaImages/clients/HPInc/%7ba48f8eb7-7bbb-4257-80a8-e0d9099ccc96%7d_drop-down.png');
+    background-repeat: no-repeat;
+    background-position: right -57px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    font-size: 1rem;
+    margin: 0 0 1rem;
+}
+select:hover {
+    background-position: right -107px;
+    border: 2px solid #363636;
+    cursor: pointer;
+}
+select option {
+    color: #000;
+    height: 40px;
+    cursor: pointer;
+}
+select.disabled {
+    background: url('http://images.engage.hp.com/EloquaImages/clients/HPInc/%7ba48f8eb7-7bbb-4257-80a8-e0d9099ccc96%7d_drop-down.png');
+    background-color: #D9D9D9;
+    background-repeat: no-repeat;
+    background-position: right -7px;
+}
+select.disabled:hover {
+    border: 2px solid #949494;
+    cursor: default;
+}
+select.disabled option {
+    display: none;
+    ;
+}
+select.error {
+    border: 2px solid #f00;
+    color: #f00;
+    background: url('http://images.engage.hp.com/EloquaImages/clients/HPInc/%7ba48f8eb7-7bbb-4257-80a8-e0d9099ccc96%7d_drop-down.png');
+    background-repeat: no-repeat;
+    background-position: right -207px;
+}
+select.error:hover {
+    background: url('http://images.engage.hp.com/EloquaImages/clients/HPInc/%7ba48f8eb7-7bbb-4257-80a8-e0d9099ccc96%7d_drop-down.png');
+    background-repeat: no-repeat;
+    background-position: right -157px;
+    border: 2px solid #363636;
+    cursor: default;
+}
+
+/*------------------END OF DROPDOWNS (FORMS)------------------*/
+
+
+/*------------------ADDED STYLE------------------*/
+
+.primary_exp {
+  display: none;
+}
+
+.secondary_exp {
+  display: none;
+}
+
+.error {
+  border-color: #ff0000 !important;
+  color: #ff0000 !important;
+}
+
+.padded {
+  margin-left: 25px;
+}
+
+* {
+  font-family: 'HPSimplifiedLight', 'HPSimplified', 'HPSimplifiedRegular', Arial;
+  font-weight: normal;
+}
+
+h1 {
+  margin-left: 5px;
+}
+
+.required {
+  color: #f00;
+}
+
+div.checkbox_holder {
+  width: 100%;
+}
+
+div.radio_holder {
+  width: 100%;
+}
+
+.preloader {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  width: 300px;
+  height: 200px;
+  margin-left: -150px;
+  margin-top: -100px;
+  z-index: 53;
+  background: url("http://images.engage.hp.com/EloquaImages/clients/HPInc/{e66a072c-ab56-4a47-bffd-d08ea9b8a6c3}_hp_loading.gif") transparent no-repeat center center;
+  position: absolute;
+  display: block;
+}
+
+.preloader div {
+  bottom: 0px;
+  position: absolute;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+  display: block;
+  text-align: center;
+  font-family: arial;
+  font-size: 11px;
+}
+
+#loading {
+  display: none;
+}
+
+/*------------------END OF ADDED STYLE------------------*/
