@@ -1,48 +1,20 @@
 /* ------------------- Font Variables ------------------- */
-$hpd: HPSimplified, sans-serif
-$hpr: HPSimplifiedRegular, sans-serif
-$hpl: HPSimplifiedLight, sans-serif
-$hp7: HPSeven, sans-serif
 /* ------------------- End of Font Variables ------------------- */
-
-
 /* ------------------- Color Variables ------------------- */
 /* ------------------- Primary Blues ------------------- */
-$blue1: #0096D6
-$blue2: #007DBA
 /* ------------------- End of Primary Blues ------------------- */
 /* ------------------- Supporting Blues ------------------- */
-$teal: #21CCD1
-$lblue: #00B3E3
-$dblue: #1159A0
 /* ------------------- End of Supporting Blues ------------------- */
 /* ------------------- Background Colors ------------------- */
-$dgrey: #757678
-$mgrey: #ACACAE
-$lgrey: #E0E1E4
 /* ------------------- End of Background Colors ------------------- */
 /* ------------------- Text Colors ------------------- */
-$black: #000
-$grey: #5A5A5A
-$white: #fff
 /* ------------------- End of Text Colors ------------------- */
 /* ------------------- Validation Colors ------------------- */
-$green: #00B04F
-$success: #00B04F
-$red: #BF2026
-$error: #BF2026
 /* ------------------- End of Validation Colors ------------------- */
 /* ------------------- End of Color Variables ------------------- */
-
-
 /* ------------------- Typography Variables ------------------- */
-$fontSize: 56
-$line: 1.1
+h1.xxl {
+  font-size: 56px;
+  line-height: 1.1; }
 
-=h1xxl($fontSize, $line)
-  font-size: ($fontSize) / 16 + rem
-  line-height: ($fontSize * $line) / 16 + rem
-
-h1
-  +h1xxl($fontSize, $line)
 /* ------------------- End of Typography Variables ------------------- */
